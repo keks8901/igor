@@ -4,7 +4,7 @@ Prefects = ["Oscar", "Mo", "Magnus", "Rory", "Fin", "Hector", "Egor"]
 Days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 Roll_Call = ["Morning", "Evening", "Night"]
 Time = []
-finale = []
+
 
 
 def make_list(list_days,list_r_c):
