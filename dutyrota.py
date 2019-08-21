@@ -11,20 +11,25 @@ def make_list(list_days,list_r_c):
     for days in range (7):
         for time in range (3):
             Time.append(list_days[days] + " " + list_r_c[time])
-            
+    return(Time)  
     print(Time)
 
 def random_schedul(list_prefects):
     random.shuffle(list_prefects)
     print('The Prefects', list_prefects)
+    return list_prefects
 
 
-       
-    
+Sessions = make_list(Days,Roll_Call)
 
+Rand1 = random_schedul(Prefects)
+Rand2 = random_schedul(Prefects)
+Rand3 = random_schedul(Prefects)
 
-make_list(Days,Roll_Call)
+RandPrefs = Rand1 + Rand2 + Rand3
+print(RandPrefs)
 
-random_schedul(Prefects)
-
-
+# using list comprehension + zip() 
+# interlist element concatenation 
+Rota = [i + j for i, j in zip(Sessions, RandPrefs)] 
+print(Rota)
