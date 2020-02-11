@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/4.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<style>
+body {
+    background: #c7b39b ; /* Цвет фона и путь к файлу */
+    color: #fff; /* Цвет текста */
+   }
+
+/* Registeration BAR*/
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+p {
+  text-indent: -50px;
+}
+
+.button1 {
+  background-color: rgb(214, 174, 63);
+  border: white;
+  color: rgb(44, 157, 172);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  margin: 10px 195px;
+  cursor: pointer;
+}
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  width: 170%;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links 
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+/* code for vertical line*/
+
+.vl {
+  border-left: 6px solid burlywood;
+  height: 900px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+</style>
+<body>
+<h1>
+</h1>
+
+<!--
+  <div class="container">
+   <img src="https://maps.googleapis.com/maps/api/
+   staticmap?size=700x300&markers={{Address}}%22%20alt=%22map%20of%20{{Address}}%22">
+  </div>
+-->
+
+
+<div class="vl"></div>
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
+         <div class="well profile">
+              <div class="col-sm-12">
+                  <div class="col-xs-12 col-sm-8">
+                      <h1>{{name}} {{surname}}</h1>
+                      <p><strong>Email: {{email}} </strong>  </p>
+                      <p><strong>Address: {{address}} </strong> </p>
+                      <p><strong>Telephone Number: {{tel_num}} </strong>
+                      <p><strong>About me: {{description}} </strong>
+                      <p><strong>{{dog_details}} </strong>  
+                      <p><strong>{{image}}</strong> 
+                      <p><strong>{{dimage}}</strong> 
+                  </div>             
+              </div>
+         </div>                 
+      </div>
+    </div>
+  </div>
+
+  <!--
+  <div class="container" style="margin: 0px 70px 0px 100px">
+    <div class="row">
+      <div class="col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
+         <div class="well profile">
+              <div class="col-sm-12">
+                  <div class="col-xs-12 col-sm-8">
+                      <h1>{{name}} {{surname}}</h1>
+                      <p><strong>Email: {{email}} </strong>  </p>
+                      <p><strong>Address: {{address}} </strong> </p>
+                      <p><strong>Telephone Number: {{tel_num}} </strong>
+                      <p><strong>About me: {{description}} </strong>
+                      <p><strong>{{image}}</strong> 
+                  </div>             
+              </div>
+         </div>                 
+      </div>
+    </div>
+  </div>
+  -->
+
+<div align="right" style="margin: 300px 80px 100px 560px" class="form-row" >
+  <div class="col">
+    <button type="button1" name = "butn" class="btn btn-secondary">Next Walker</button>
+  </div>
+  <div class="col">
+    <button type="button1" name = "butn" class="btn btn-secondary">Accept Walker</button>
+  </div>
+
+                        
+</body>
+</html>
+
